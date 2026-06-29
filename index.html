@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexander Tristan's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="" data-target="hero">alextrs8222</a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="" data-target="about">About Me</a></li>
+          <li><a href="" data-target="projects">Project</a></li>
+          <li><a href="" data-target="footer">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-fade" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Hello, I'm <span>Alexander Tristan</span></h1>
+            <p class="hero-role">Business Analyst | UI/UX Designer | Frontend Developer</p>
+            <p>
+              A college student with UI/UX design experience, passionate about designing intuitive user
+              experiences, developing interactive prototypes, and transforming ideas into functional and
+              visually engaging digital solutions.
+            </p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-target="footer">Contact Me</button>
+              <a class="text-link" href="">Download CV</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Profile image">
+            <div class="profile-ring">
+              <img src="img/hero.png" alt="Alexander Tristan profile photo" data-fallback="img/box.jpeg" />
+            </div>
+          </div>
+        </div>
+        <p class="scroll-note">Scroll down for more information about me!</p>
+      </section>
+
+      <section class="about section-pad section-fade" id="about">
+        <div class="container narrow">
+          <h2 class="section-title">About <span>Me</span></h2>
+          <p>
+            As a college student with three years of experience in UI/UX design, I have developed a strong
+            foundation in creating user-centered digital experiences that balance functionality, clarity, and
+            visual appeal. My academic background and hands-on design practice have strengthened my ability
+            to translate ideas into intuitive interfaces, supported by a structured design process and
+            attention to detail.
+          </p>
+          <p>
+            I value collaboration, creativity, and continuous learning, and I am especially motivated by
+            opportunities that connect people through purposeful work. I aim to contribute to sustainable,
+            focused projects by bringing fresh perspectives, thoughtful design thinking, and a commitment to
+            shared goals.
+          </p>
+          <div class="quote-box">
+            <strong>Quotes:</strong>
+            <p id="quoteText"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="education section-pad section-fade" id="education">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="education-grid">
+            <div>
+              <h3>Universitas <span>Bina Nusantara</span></h3>
+              <p class="meta">Major in Information Systems, Study from 2023 - Present</p>
+              <ul class="feature-list">
+                <li>Has a strong foundation in systems analysis and design through the Information System Analysis &amp; Design course.</li>
+                <li>Skilled in translating business and user requirements into analysis processes, system models, and diagrams.</li>
+                <li>Developed problem-solving and analytical thinking skills through academic projects and case studies.</li>
+                <li>Experienced in planning structured solutions based on user needs and project constraints.</li>
+              </ul>
+            </div>
+            <figure class="media-placeholder education-slideshow slideshow" data-slides="img/activity/Ed1.png,img/activity/Ed2.png,img/activity/Ed3.png">
+              <img src="img/activity/Ed1.png" alt="Education activity" data-fallback="img/box.jpeg" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section-fade" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="logo-row" aria-label="Technology stack logos">
+            <img src="img/skills/git.png" alt="Git" data-fallback="img/box.jpeg" />
+            <img src="img/skills/word.png" alt="Word" data-fallback="img/box.jpeg" />
+            <img src="img/skills/Image 2.png" alt="Excel" data-fallback="img/box.jpeg" />
+            <img src="img/skills/ps.png" alt="Photoshop" data-fallback="img/box.jpeg" />
+            <img src="img/skills/xd.png" alt="Adobe XD" data-fallback="img/box.jpeg" />
+            <img src="img/skills/figma.png" alt="Figma" data-fallback="img/box.jpeg" />
+            <img src="img/skills/html.png" alt="HTML" data-fallback="img/box.jpeg" />
+            <img src="img/skills/css.png" alt="CSS" data-fallback="img/box.jpeg" />
+            <img src="img/skills/js.png" alt="JavaScript" data-fallback="img/box.jpeg" />
+            <img src="img/skills/mysql.png" alt="MySQL" data-fallback="img/box.jpeg" />
+            <img src="img/skills/java.png" alt="Java" data-fallback="img/box.jpeg" />
+            <img src="img/skills/aws.png" alt="AWS" data-fallback="img/box.jpeg" />
+            <img src="img/skills/python.png" alt="Python" data-fallback="img/box.jpeg" />
+          </div>
+
+          <div class="skill-grid">
+            <article class="skill-card">
+              <img src="img/skills/business.png" alt="Business Analyst icon" data-fallback="img/box.jpeg" />
+              <h3><span>Business</span> Analyst</h3>
+              <p>Business requirements analysis, process mapping, documentation, and solution planning.</p>
+            </article>
+            <article class="skill-card">
+              <img src="img/skills/uiux.png" alt="UI/UX Designer icon" data-fallback="img/box.jpeg" />
+              <h3><span>UI/UX</span> Designer</h3>
+              <p>Wireframing, prototyping, usability testing, and user-centered design.</p>
+            </article>
+            <article class="skill-card">
+              <img src="img/skills/frontend.png" alt="Frontend Developer icon" data-fallback="img/box.jpeg" />
+              <h3><span>Frontend</span> Developer</h3>
+              <p>HTML, CSS, JavaScript, responsive design, and interface implementation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-pad section-fade" id="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="project-grid">
+            <article class="project-card app-card">
+              <h3>Netto Laundry</h3>
+              <img class="project-logo" src="img/projects/BA_1.png" alt="Netto Laundry logo" data-fallback="img/box.jpeg" />
+              <div class="slideshow" data-slides="img/projects/N1.png,img/projects/N2.png,img/projects/N3.png,img/projects/N4.png">
+                <img src="img/projects/N1.png" alt="Netto Laundry project preview" data-fallback="img/box.jpeg" />
+              </div>
+              <a
+                class="btn btn-primary"
+                href="https://www.figma.com/proto/TGhotXVGgkzrWzBtHrL1Oj/Netto-Laundrymart-UI?node-id=180-3413&p=f&viewport=-184%2C-624%2C0.22&t=Uxhdh1DBCvgwglYg-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=180%3A3413&show-proto-sidebar=1&page-id=178%3A3269"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Prototype</a>
+            </article>
+
+            <article class="project-card app-card">
+              <h3>Foodinity</h3>
+              <img class="project-logo" src="img/projects/FD_1.png" alt="Foodinity logo" data-fallback="img/box.jpeg" />
+              <div class="slideshow" data-slides="img/projects/F1.png,img/projects/F2.png,img/projects/F3.png,img/projects/F4.png">
+                <img src="img/projects/F1.png" alt="Foodinity project preview" data-fallback="img/box.jpeg" />
+              </div>
+              <a
+                class="btn btn-primary"
+                href="https://www.figma.com/proto/opr33lfAJTbRajY8KypOF4/Foodinity---Prototype?node-id=117-769&viewport=610%2C181%2C0.11&t=Sg3OjhE2r79x3pkR-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=117%3A769&page-id=0%3A1&show-proto-sidebar=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Prototype</a>
+            </article>
+
+            <article class="project-card bakery-card">
+              <h3>Good Old's Bakery</h3>
+              <img class="project-logo" src="img/projects/UI_1.png" alt="Good Old's Bakery logo" data-fallback="img/box.jpeg" />
+              <div class="slideshow wide" data-slides="img/projects/G1.png,img/projects/G2.png,img/projects/G3.png,img/projects/G4.png">
+                <img src="img/projects/G1.png" alt="Good Old's Bakery project preview" data-fallback="img/box.jpeg" />
+              </div>
+              <div class="button-row">
+                <a
+                  class="btn btn-light"
+                  href="https://www.figma.com/proto/IPPafd62vXy41vNTRobYzJ/Good-OLd--Bakery---Prototype?node-id=1-3&viewport=155%2C306%2C0.15&t=NSk8MonC0eJhAu6I-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3&page-id=0%3A1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Prototype</a>
+                <a class="btn btn-primary" href="https://good-old-bakery-web.netlify.app/" target="_blank" rel="noopener noreferrer">Demo Website</a>
+                <a class="btn btn-light" href="https://github.com/alextrs8222-blud/goodoldbakery-frontend" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="research section-pad section-fade" id="research">
+        <div class="container">
+          <h2 class="section-title">Research</h2>
+          <article class="research-card">
+            <h3><span>Cloud Implementation</span> in Pratama Clinic Graha Beauty Center</h3>
+            <p>
+              Abstract: Pratama Graha Beauty Center currently operates with traditional manual processes for
+              patient management, inventory tracking, and procurement activities. This research examines how
+              cloud implementation can improve efficiency, access, reporting, and data organization across
+              clinic operations.
+            </p>
+            <a
+              class="btn btn-primary"
+              href="https://drive.google.com/file/d/1gKVMhGcqO5b_henD6Un-Hdqjh0HIDWSZ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Read Paper</a>
+          </article>
+          <article class="research-card">
+            <h3>Analyzing the Importance of <span>Multi-Factor Authentication (MFA)</span> to Improve Cybersecurity in Daily Life</h3>
+            <p>
+              Abstract: This research discusses how MFA strengthens everyday digital security by reducing the
+              risk of unauthorized access. It explores user behavior, practical implementation, and the role
+              of authentication layers in protecting personal information.
+            </p>
+            <a
+              class="btn btn-primary"
+              href="https://drive.google.com/file/d/18K5mlcBGDCeHSLtdpV7nD5qUnBu-Lv4l/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Read Paper</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section-fade" id="footer">
+      <div class="container">
+        <h2>Alexander Tristan</h2>
+        <p>Email: alextris8222@gmail.com</p>
+        <p>Phone: (+62) 812-1410-8629</p>
+        <div class="footer-links">
+          <a href="https://github.com/alextrs8222-blud" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/alexander-tristan-15042b291/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="">Resume (CV)</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
